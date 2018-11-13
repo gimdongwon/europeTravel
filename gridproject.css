@@ -1,0 +1,201 @@
+@charset 'utf-8';
+
+/*@import url(https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'SpoqaHanSans', 'Spoqa Han Sans JP', 'Sans-serif';
+}
+
+.container {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/*데스크탑 화면*/
+
+@media screen and (min-width:768px) {
+    [class*="col-"] {
+        float: left;
+        padding: 0 10px 0 10px;
+    }
+    .row::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .col-1 {
+        width: 8.33%
+    }
+    .col-2 {
+        width: 16.67%
+    }
+    .col-3 {
+        width: 25%
+    }
+    .col-4 {
+        width: 33.33%
+    }
+    .col-5 {
+        width: 41.67%
+    }
+    .col-6 {
+        width: 50%
+    }
+    .col-7 {
+        width: 58.33%
+    }
+    .col-8 {
+        width: 66.67%
+    }
+    .col-9 {
+        width: 75%
+    }
+    .col-10 {
+        width: 83.33%
+    }
+    .col-11 {
+        width: 91.67%
+    }
+    .col-12 {
+        width: 100%
+    }
+}
+
+
+/*태블릿화면*/
+
+@media screen and (min-width: 960px) {
+    .container {
+        width: 960px;
+        margin: 0 auto;
+    }
+}
+
+.container {
+    padding: 0;
+}
+
+.header-img {
+    background-image: url("./images/londonbridge.jpg");
+    background-size: cover;
+    height: 680px;
+    margin-bottom: 5rem;
+    color: #fff;
+    text-align: center;
+    background-position: center center;
+}
+
+.header-text {
+    line-height: 680px;
+    /*display: flex;
+		flex-direction: column;
+		justify-content: flex-end;*/
+}
+
+.eat-item a {
+    display: block;
+    height: 25rem;
+    border-radius: 4px;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 5rem;
+}
+
+.eat-item:nth-child(1) a {
+    background-image: url("./images/duck.jpg"), linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
+}
+
+.eat-item:nth-child(2) a {
+    background-image: url("./images/kozel.jpg"), linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
+}
+
+.eat-item:nth-child(3) a {
+    background-image: url("./images/snail.jpg"), linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
+}
+
+.eat-content {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 25rem;
+    padding: 1rem;
+}
+
+.section-title {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.media-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%
+}
+
+.media-container iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 10rem;
+}
+
+.gallery-item p {
+    display: flex;
+    height: 20.8rem;
+    background-color: pink;
+}
+
+.gallery-img {
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.gallery-item:nth-child(1) .gallery-img {
+    background-image: url("./images/effel.jpg");
+}
+
+.gallery-item:nth-child(2) .gallery-img {
+    background-image: url("./images/effelnight.jpg");
+}
+
+.gallery-item:nth-child(3) .gallery-img {
+    background-image: url("./images/france.jpg");
+}
+
+.gallery-item:nth-child(4) .gallery-img {
+    background-image: url("./images/chzch.jpg");
+}
+
+.gallery-item:nth-child(5) .gallery-img {
+    background-image: url("./images/vienna.jpg");
+}
+
+.gallery-item:nth-child(6) .gallery-img {
+    background-image: url("./images/notrdam.jpg");
+}
+
+.gallery-item:nth-child(7) .gallery-img {
+    background-image: url("./images/londonbridge.jpg");
+}
+
+
+}

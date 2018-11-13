@@ -1,0 +1,22 @@
+@charset 'utf-8';
+
+
+@media screen and (min-width:768px;){
+	
+}
+
+
+
+*{
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.container{
+	width: 960px;
+	height: auto;
+}
+.header{
+	background: url("images/londonbridge.jpg");
+	width: 100vw;
+	height: 500px;
+}
