@@ -83,7 +83,7 @@
 }
 
 .header-img {
-    background-image: url("./images/londonbridge.jpg");
+    background-image: url("https://raw.githubusercontent.com/gimdongwon/europeTravel/master/images/londonbridge.jpg");
     background-size: cover;
     height: 680px;
     margin-bottom: 5rem;
@@ -109,15 +109,15 @@
 }
 
 .eat-item:nth-child(1) a {
-    background-image: url("./images/duck.jpg"), linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
+    background-image: url("https://raw.githubusercontent.com/gimdongwon/europeTravel/master/images/duck.jpg"), linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
 }
 
 .eat-item:nth-child(2) a {
-    background-image: url("./images/kozel.jpg"), linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
+    background-image: url("https://raw.githubusercontent.com/gimdongwon/europeTravel/master/images/kozel.jpg"), linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
 }
 
 .eat-item:nth-child(3) a {
-    background-image: url("./images/snail.jpg"), linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
+    background-image: url("https://raw.githubusercontent.com/gimdongwon/europeTravel/master/images/snail.jpg"), linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
 }
 
 .eat-content {
