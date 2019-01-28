@@ -170,31 +170,31 @@
 }
 
 .gallery-item:nth-child(1) .gallery-img {
-    background-image: url("./images/effel.jpg");
+    background-image: url("https://github.com/gimdongwon/europeTravel/blob/master/images/effel.jpg?raw=true");
 }
 
 .gallery-item:nth-child(2) .gallery-img {
-    background-image: url("./images/effelnight.jpg");
+    background-image: url("https://github.com/gimdongwon/europeTravel/blob/master/images/effelnight.jpg?raw=true");
 }
 
 .gallery-item:nth-child(3) .gallery-img {
-    background-image: url("./images/france.jpg");
+    background-image: url("https://github.com/gimdongwon/europeTravel/blob/master/images/france.jpg?raw=true");
 }
 
 .gallery-item:nth-child(4) .gallery-img {
-    background-image: url("./images/chzch.jpg");
+    background-image: url("https://raw.githubusercontent.com/gimdongwon/europeTravel/master/images/chzch.jpg");
 }
 
 .gallery-item:nth-child(5) .gallery-img {
-    background-image: url("./images/vienna.jpg");
+    background-image: url("https://github.com/gimdongwon/europeTravel/blob/master/images/vienna.jpg?raw=true");
 }
 
 .gallery-item:nth-child(6) .gallery-img {
-    background-image: url("./images/notrdam.jpg");
+    background-image: url("https://github.com/gimdongwon/europeTravel/blob/master/images/notrdam.jpg?raw=true");
 }
 
 .gallery-item:nth-child(7) .gallery-img {
-    background-image: url("./images/londonbridge.jpg");
+    background-image: url("https://github.com/gimdongwon/europeTravel/blob/master/images/londonbridge.jpg?raw=true");
 }
 
 
